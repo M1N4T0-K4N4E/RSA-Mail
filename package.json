@@ -5,6 +5,7 @@
     "dev": "tsx watch src/index.ts",
     "runtest": "tsx watch src/test.js",
     "createdata": "tsx watch src/createData.js",
+    "db": "db/pocketbase.exe serve ",
     "build": "tsc",
     "start": "node dist/index.js"
   },

@@ -3,6 +3,7 @@
 A simple Mail sender scheduler for RSA project using PocketBase as database.
 
 Change mailOptions in mailer.ts for change reciver.
+For database Collection import it from /db/pb.schema.json AND download PocketBase .exe file to /db/
 
 ## Usage
 
@@ -11,13 +12,17 @@ Change mailOptions in mailer.ts for change reciver.
     ```bash
     yarn dev
     ```
-3. for testing queries data
+3. run testing queries data
     ```bash
     yarn runtest
     ```
-4. for creating sample data
+4. run creating sample data
     ```bash
     yarn createdata
+    ```
+5. run database
+    ```bash
+    yarn db
     ```
 
 

@@ -37,7 +37,7 @@ async function createPost(count) {
         Period: "2024-01-01 to 2024-12-31",
         Organized: "smt",
         Contact: "smt",
-        Verify: count > 4 ?  false : true,
+        Verify: count > 5 ?  false : true,
         Notify: false,
     };
     try {

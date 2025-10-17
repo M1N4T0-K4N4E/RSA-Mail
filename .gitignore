@@ -1,3 +1,7 @@
 node_modules/
 
 .env
+
+db/pb_data
+db/pb_migrations
+db/pocketbase.exe
